@@ -1,0 +1,86 @@
+body,div,header,footer,p,span,a {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+body {
+	background: url(../img/background.jpg) no-repeat;
+  background-size: cover;
+	width: 100%;
+	height: 100%;
+  min-width: 1000px;
+}
+
+/* header */
+header.headline {
+  width: 100%;
+  min-width: 1000px;
+  padding-top: 30px;
+  margin-top: 20px;
+  
+}
+header.headline > span {
+  width: 1200px;
+  height: 80px;
+  background: url(../img/ins/select.png) no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* container */
+div.container {
+  width: 1200px;
+  height: 400px;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+img{
+	display: inline-block;
+	float: left;
+	margin-top: 60px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.name img{
+	display: inline-block;
+	float: left;
+	margin-top:-20px;
+	padding: 60px;	
+	margin-left: -20px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+}
+footer > div.copyright {
+  width: 1000px;
+  height: 30px;
+  margin: 0 auto;
+}
+footer > div.copyright :nth-child(1) {
+  margin-left: 2%;
+}
+footer > div.copyright :nth-child(2) {
+  width: 10%;
+  margin-left: 47%;
+}
+footer > div.copyright :nth-child(3) {
+  width: 8.5%;
+}
+footer > div.copyright > p {
+  color: #436686;
+  font-family: 微软雅黑;
+  width: 15%;
+  display: inline-block;
+}
+footer > div.copyright > p > a {
+  color: #436686;
+  text-decoration: none;
+}
+footer > div.copyright > p > a:hover {
+  color: #3B4B5A;
+  text-decoration: none;
+}

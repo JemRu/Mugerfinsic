@@ -1,0 +1,146 @@
+body{
+	margin:0px;
+	padding:0px;
+/*	background-color:#FFCC99;*/
+	height:650px;
+}
+#backg{
+	
+	margin:0px;
+	padding:0px;
+	background-color:rgba(0,0,0,0.1);
+	height：100%;
+	width: 100%;
+	position: absolute;
+	z-index:auto;
+	text-align: center;
+	left:0px;
+	top:0px;
+
+}
+.inback,.inback2,.inback3,.inback4{
+	width: 1060px;
+	height: 520px;
+	background-color: #ffffff;
+	margin-top:5% ;
+	margin-left:12%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	
+	-moz-border-radius:30px;      /* Gecko browsers */
+    -webkit-border-radius: 30px;   /* Webkit browsers */
+    border-radius:30px;            /* W3C syntax */
+   
+    alpha(opacity=70); 
+    opacity: 0.7;
+	
+}
+.inback2,.inback3,.inback4{
+	display: none;
+}
+.img-1{
+	display: inline-block;
+	margin-left:-350px ;
+	vertical-align: middle;
+}
+.head-p{
+	display: inline-block;
+	color: #3498db;
+	font-size: 36px;
+	margin-left: 250px;
+	vertical-align:  middle;
+}
+.img-2{
+	display: inline-block;
+	vertical-align: middle;
+}
+.body-p{
+	display: inline-block;
+	vertical-align: middle;
+	color: #3498db;
+	font-size: 36px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.img-3{
+	display: inline-block;
+	vertical-align: middle;
+}
+.pass{
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	color:#3498db;
+	font-size: 30px;
+	border:hidden;
+	margin-top: %;
+	margin-left:76% ;
+	padding:0px;
+}
+.next{
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	color:#3498db;
+	font-size: 36px;
+	border:hidden;
+	margin-top: 2%;
+	margin-left:% ;
+	padding:0px;
+	
+}
+#last1{
+	margin-right:180px;
+}
+#next1 {
+	margin-left:180px;
+}
+#last4{
+	margin-right:150px;
+	margin-top:60px ;
+}
+#next4 {
+	margin-left:150px;
+	margin-top:60px ;
+}
+#last2{
+	margin-right:100px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#next2 {
+	margin-left:100px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.pass:hover{
+	cursor:pointer ;
+}
+.next:hover{
+	cursor:pointer ;
+}
+
+.inback > .inbody{
+	margin-top:5%;
+	margin-bottom: 4%;
+}
+.inback2 > .inbody{
+	margin-top:2%;
+	margin-bottom: 5%;
+}
+.inback3 > .inbody{
+	margin-top:5%;
+	margin-bottom: 7%;
+}
+.inback4 > .inbody{
+	margin-top:2%;
+	margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+

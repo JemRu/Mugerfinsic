@@ -1,0 +1,105 @@
+body {
+	background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+	height: 100%;
+	min-width: 1280px;
+}
+div,img{
+	margin: 0;
+	padding: 0;
+	
+}
+.music_list{
+	width:400px;
+	height: 500px;
+	position: absolute;
+	left:240px;
+	top:80px;
+
+	background:#cee9e1;
+	opacity: 0.8;
+	border-top-right-radius:28px ;
+	border-bottom-right-radius:28px ;
+	border-top-left-radius:58px ;
+	border-bottom-left-radius:58px ;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.mymusic{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.name{
+	font-family: "微软雅黑";
+	font-size: 25px;
+	font-weight:400;
+}
+.music{
+	font-family: "微软雅黑";
+	font-size: 22px;	
+	margin-left: 100px;
+}
+a,a:focus,a:active,a:hover{
+	direction: none;
+	color: #000000;
+	text-decoration: none;
+}
+.right{
+	width:600px;
+	height: 400px;
+	position: absolute;
+	right:10px;
+	top:100px;
+	
+}
+.share{
+	margin-top: 10px;
+}
+.again{
+	margin-top:150px;
+}
+.detail1{
+	position: absolute;
+    left:180px;
+    top:65px;
+    font-family: "黑体";
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.detail2{
+	position: absolute;
+    left:180px;
+    bottom:-5px;
+    font-family:"黑体";
+    font-size: 30px;
+    color: #FFFFFF;    
+}
+/******************滚动条***********************/
+::-webkit-scrollbar {
+   width:20px;
+   margin-right:2px
+}
+::-webkit-scrollbar:horizontal {
+   height:20px;
+   margin-bottom:2px
+}
+::-webkit-scrollbar-track {
+    border-radius: 58px;
+     height: 20px;
+}
+::-webkit-scrollbar-track-piece {
+   background: url(../img/play/scoll.png);
+   border-radius: 58px;
+}
+::-webkit-scrollbar-thumb {
+   width:20px;
+   height: 20px;
+   top:100px;
+    border-radius: 58px;
+    background: #FFFFFF; 
+    opacity: 0.6;
+}
+::-webkit-scrollbar-thumb:hover {
+	 height: 20px;
+   background: #DFDFDF; 
+}
