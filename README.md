@@ -12,7 +12,7 @@
 * doc: 项目文档 项目介绍视频 等
 * UI: 界面原型图 以及网页截图
 
-> 部署于：[演示地址]("http://mugerfinsic.applinzi.com")  
+> 部署于：[演示地址](url "http://mugerfinsic.applinzi.com")  
 但是本地没有realsencef200摄像头以及相关驱动 估计是行不通的 _(:з」∠)__
 
 
